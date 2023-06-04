@@ -3,7 +3,8 @@
 
 <template>
   <div>
-    <ComponentAlpha/>
+    <p>This is the nested global component Alpha</p>
+    <GlobalComponentBeta/>
   </div>
 </template>
 
