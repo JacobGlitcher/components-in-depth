@@ -4,8 +4,6 @@
 #### Here is the list of topics.
 
 * Registration - registration
-* Props - props
-* Events - events
 * Component v-model - component-v-model
 * Fallthrough attributes - fallthrough-attributes
 * Slots - slots
