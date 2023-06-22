@@ -19,7 +19,7 @@ const secondMessage = ref("")
   </div>
   <div>
     <h3>getter setter component v-model</h3>
-    <SecondChildComponent v-model:secondMessage="secondMessage"/> {{ secondMessage }}
+    <SecondChildComponent v-model:secondMessage.uppercase="secondMessage"/> {{ secondMessage }}
   </div>
 </template>
 
