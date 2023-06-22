@@ -5,7 +5,6 @@
 
 * Registration - registration
 * Component v-model - component-v-model
-* Fallthrough attributes - fallthrough-attributes
 * Slots - slots
 * Provide/Inject - provide-inject
 * Async Components - async-components
