@@ -1,11 +1,20 @@
 <script setup>
-defineProps(['firstMessage'])
-defineEmits(['update:firstMessage'])
+defineProps(['firstMessage', 'firstSubMessageMessage'])
+defineEmits(['update:firstMessage', 'update:firstSubMessageMessage'])
 </script>
 
 <template>
-  <input
-      :value="firstMessage"
-      @input="$emit('update:firstMessage', $event.target.value)"
-  />
+  <div>
+    <input
+        :value="firstMessage"
+        @input="$emit('update:firstMessage', $event.target.value)"
+    /> {{ firstMessage }}
+  </div>
+
+  <div>
+    <input
+        :value="firstSubMessageMessage"
+        @input="$emit('update:firstSubMessageMessage', $event.target.value)"
+    /> {{ firstSubMessageMessage }}
+  </div>
 </template>

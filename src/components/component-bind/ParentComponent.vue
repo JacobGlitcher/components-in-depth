@@ -5,13 +5,17 @@ import FirstChildComponent from "./FirstChildComponent.vue";
 import SecondChildComponent from "./SecondChildComponent.vue";
 
 const firstMessage = ref("")
+const firstSubMessageMessage = ref("")
 const secondMessage = ref("")
 </script>
 
 <template>
   <div>
     <h3>simple component v-model</h3>
-    <FirstChildComponent v-model:firstMessage="firstMessage"/> {{ firstMessage }}
+    <FirstChildComponent
+        v-model:firstMessage="firstMessage"
+        v-model:firstSubMessageMessage="firstSubMessageMessage"
+    />
   </div>
   <div>
     <h3>getter setter component v-model</h3>
