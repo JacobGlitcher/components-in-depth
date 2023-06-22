@@ -1,11 +1,11 @@
 <script setup>
-defineProps(['modelValue'])
-defineEmits(['update:modelValue'])
+defineProps(['firstMessage'])
+defineEmits(['update:firstMessage'])
 </script>
 
 <template>
   <input
-      :value="modelValue"
-      @input="$emit('update:modelValue', $event.target.value)"
+      :value="firstMessage"
+      @input="$emit('update:firstMessage', $event.target.value)"
   />
 </template>

@@ -1,15 +1,15 @@
 <script setup>
 import { computed } from 'vue'
 
-const props = defineProps(['modelValue'])
-const emit = defineEmits(['update:modelValue'])
+const props = defineProps(['secondMessage'])
+const emit = defineEmits(['update:secondMessage'])
 
 const value = computed({
   get() {
-    return props.modelValue
+    return props.secondMessage
   },
   set(value) {
-    emit('update:modelValue', value)
+    emit('update:secondMessage', value)
   }
 })
 </script>
