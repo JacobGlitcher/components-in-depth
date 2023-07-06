@@ -11,14 +11,14 @@ const secondMessage = ref("")
 
 <template>
   <div>
-    <h3>simple component v-model</h3>
+    <p>simple component v-model</p>
     <FirstChildComponent
         v-model:firstMessage="firstMessage"
         v-model:firstSubMessageMessage="firstSubMessageMessage"
     />
   </div>
   <div>
-    <h3>getter setter component v-model</h3>
+    <p>getter setter component v-model</p>
     <SecondChildComponent v-model:secondMessage.uppercase="secondMessage"/> {{ secondMessage }}
   </div>
 </template>

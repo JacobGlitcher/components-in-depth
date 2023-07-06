@@ -1,8 +1,8 @@
 <script setup>
-import LocalComponentAlpha from "./components/local-component/LocalComponentAlpha.vue";
-import SimpleBind from './components/simple-bind/SimpleBind.vue'
-import ParentComponent from './components/component-bind/ParentComponent.vue'
-import SimpleSlotParent from "./components/simple-slots/SimpleSlotParent.vue";
+import LocalComponentAlpha from "./components/registration/local-component/LocalComponentAlpha.vue";
+import SimpleBind from './components/component-v-model/simple-bind/SimpleBind.vue'
+import ParentComponent from './components/component-v-model/component-bind/ParentComponent.vue'
+import SimpleSlotParent from "./components/slots/simple-slots/SimpleSlotParent.vue";
 </script>
 
 <template>
