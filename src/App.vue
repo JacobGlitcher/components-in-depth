@@ -6,4 +6,7 @@
 </template>
 
 <style scoped>
+.components-wrapper {
+  margin-bottom: 25px;
+}
 </style>
