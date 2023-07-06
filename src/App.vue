@@ -1,5 +1,5 @@
 <script setup>
-import LocalComponentAlpha from "./components/local/LocalComponentAlpha.vue";
+import LocalComponentAlpha from "./components/local-component/LocalComponentAlpha.vue";
 </script>
 
 <template>
