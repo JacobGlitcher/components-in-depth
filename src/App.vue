@@ -5,6 +5,7 @@ import ParentComponent from './components/component-v-model/component-bind/Paren
 import SimpleSlotParent from "./components/slots/simple-slots/SimpleSlotParent.vue";
 import FallbackParent from "./components/slots/fallback/FallbackParent.vue";
 import NamedSlotParent from "./components/slots/named-slots/NamedSlotParent.vue";
+import ScopedSlotParent from "./components/slots/scoped-slots/ScopedSlotParent.vue";
 </script>
 
 <template>
@@ -57,6 +58,11 @@ import NamedSlotParent from "./components/slots/named-slots/NamedSlotParent.vue"
       <div class="components-wrapper">
         <h3>named slots examples</h3>
         <NamedSlotParent/>
+      </div>
+
+      <div class="components-wrapper">
+        <h3>scoped slots examples</h3>
+        <ScopedSlotParent/>
       </div>
     </div>
   </div>
