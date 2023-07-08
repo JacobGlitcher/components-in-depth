@@ -3,7 +3,7 @@
 
 <template>
   <div>
-    <p>This is the triple nested global component Gamma</p>
+    <p><slot>This is an example of fallback slot</slot></p>
   </div>
 </template>
 

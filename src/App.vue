@@ -3,6 +3,7 @@ import LocalComponentAlpha from "./components/registration/local-component/Local
 import SimpleBind from './components/component-v-model/simple-bind/SimpleBind.vue'
 import ParentComponent from './components/component-v-model/component-bind/ParentComponent.vue'
 import SimpleSlotParent from "./components/slots/simple-slots/SimpleSlotParent.vue";
+import FallbackParent from "./components/slots/fallback/FallbackParent.vue";
 </script>
 
 <template>
@@ -40,11 +41,16 @@ import SimpleSlotParent from "./components/slots/simple-slots/SimpleSlotParent.v
     <hr>
 
     <div class="main-wrapper">
-      <h2>Here are some examples of v-model implementation</h2>
+      <h2>Here are some examples of slots implementation</h2>
 
       <div class="components-wrapper">
         <h3>simple slots</h3>
         <SimpleSlotParent/>
+      </div>
+
+      <div class="components-wrapper">
+        <h3>fallback content in slots</h3>
+        <FallbackParent/>
       </div>
     </div>
   </div>
