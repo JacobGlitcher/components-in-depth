@@ -1,6 +1,6 @@
 <script setup>
-defineProps(['firstMessage', 'firstSubMessageMessage'])
-defineEmits(['update:firstMessage', 'update:firstSubMessageMessage'])
+defineProps(["firstMessage", "firstSubMessageMessage"]);
+defineEmits(["update:firstMessage", "update:firstSubMessageMessage"]);
 </script>
 
 <template>

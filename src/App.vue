@@ -1,17 +1,18 @@
 <script setup>
 import LocalComponentAlpha from "./components/registration/local-component/LocalComponentAlpha.vue";
-import SimpleBind from './components/component-v-model/simple-bind/SimpleBind.vue'
-import ParentComponent from './components/component-v-model/component-bind/ParentComponent.vue'
+import SimpleBind from "./components/component-v-model/simple-bind/SimpleBind.vue"
+import ParentComponent from "./components/component-v-model/component-bind/ParentComponent.vue"
 import SimpleSlotParent from "./components/slots/simple-slots/SimpleSlotParent.vue";
 import FallbackParent from "./components/slots/fallback/FallbackParent.vue";
 import NamedSlotParent from "./components/slots/named-slots/NamedSlotParent.vue";
 import ScopedSlotParent from "./components/slots/scoped-slots/ScopedSlotParent.vue";
+import ProvideInjectParent from "./components/provide-inject/ProvideInjectParent.vue";
 </script>
 
 <template>
   <div>
     <div class="main-wrapper">
-      <h2>Here are some examples of Global and Local components</h2>
+      <h2>Here are some examples of Global and Local Components</h2>
 
       <div class="components-wrapper">
         <h3>Global Components</h3>
@@ -27,7 +28,7 @@ import ScopedSlotParent from "./components/slots/scoped-slots/ScopedSlotParent.v
     <hr>
 
     <div class="main-wrapper">
-      <h2>Here are some examples of v-model implementation</h2>
+      <h2>Here are some examples of V-Model implementation</h2>
 
       <div class="components-wrapper">
         <h3>encapsulated v-model</h3>
@@ -43,7 +44,7 @@ import ScopedSlotParent from "./components/slots/scoped-slots/ScopedSlotParent.v
     <hr>
 
     <div class="main-wrapper">
-      <h2>Here are some examples of slots implementation</h2>
+      <h2>Here are some examples of Slots implementation</h2>
 
       <div class="components-wrapper">
         <h3>simple slots</h3>
@@ -63,6 +64,17 @@ import ScopedSlotParent from "./components/slots/scoped-slots/ScopedSlotParent.v
       <div class="components-wrapper">
         <h3>scoped slots examples</h3>
         <ScopedSlotParent/>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="main-wrapper">
+      <h2>Here are some examples of Provide/Inject implementation</h2>
+
+      <div class="components-wrapper">
+        <h3>working with reactivity and changing the value from descendant</h3>
+        <ProvideInjectParent/>
       </div>
     </div>
   </div>

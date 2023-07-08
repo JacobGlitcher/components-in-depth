@@ -1,5 +1,5 @@
 <script setup>
-import FallbackChild from "./FallbackChild.vue"
+import FallbackChild from "./FallbackChild.vue";
 </script>
 
 <template>

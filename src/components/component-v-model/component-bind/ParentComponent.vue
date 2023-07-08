@@ -4,9 +4,9 @@ import { ref } from "vue"
 import FirstChildComponent from "./FirstChildComponent.vue";
 import SecondChildComponent from "./SecondChildComponent.vue";
 
-const firstMessage = ref("")
-const firstSubMessageMessage = ref("")
-const secondMessage = ref("")
+const firstMessage = ref("");
+const firstSubMessageMessage = ref("");
+const secondMessage = ref("");
 </script>
 
 <template>

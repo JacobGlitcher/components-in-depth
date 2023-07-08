@@ -1,8 +1,8 @@
 <script setup>
 import { ref } from "vue";
 
-const firstMessage = ref("")
-const secondMessage = ref("")
+const firstMessage = ref("");
+const secondMessage = ref("");
 </script>
 
 <template>
