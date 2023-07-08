@@ -4,6 +4,7 @@ import SimpleBind from './components/component-v-model/simple-bind/SimpleBind.vu
 import ParentComponent from './components/component-v-model/component-bind/ParentComponent.vue'
 import SimpleSlotParent from "./components/slots/simple-slots/SimpleSlotParent.vue";
 import FallbackParent from "./components/slots/fallback/FallbackParent.vue";
+import NamedSlotParent from "./components/slots/named-slots/NamedSlotParent.vue";
 </script>
 
 <template>
@@ -51,6 +52,11 @@ import FallbackParent from "./components/slots/fallback/FallbackParent.vue";
       <div class="components-wrapper">
         <h3>fallback content in slots</h3>
         <FallbackParent/>
+      </div>
+
+      <div class="components-wrapper">
+        <h3>named slots examples</h3>
+        <NamedSlotParent/>
       </div>
     </div>
   </div>
