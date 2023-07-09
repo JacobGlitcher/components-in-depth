@@ -7,6 +7,7 @@ import FallbackParent from "./components/slots/fallback/FallbackParent.vue";
 import NamedSlotParent from "./components/slots/named-slots/NamedSlotParent.vue";
 import ScopedSlotParent from "./components/slots/scoped-slots/ScopedSlotParent.vue";
 import ProvideInjectParent from "./components/provide-inject/ProvideInjectParent.vue";
+import AsyncComponentParent from "./components/async-components/AsyncComponentParent.vue";
 </script>
 
 <template>
@@ -75,6 +76,15 @@ import ProvideInjectParent from "./components/provide-inject/ProvideInjectParent
       <div class="components-wrapper">
         <h3>working with reactivity and changing the value from descendant</h3>
         <ProvideInjectParent/>
+      </div>
+    </div>
+
+    <div class="main-wrapper">
+      <h2>Here are some examples of Async Components implementation</h2>
+
+      <div class="components-wrapper">
+        <h3>async component example</h3>
+        <AsyncComponentParent/>
       </div>
     </div>
   </div>
